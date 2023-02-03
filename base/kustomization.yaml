@@ -2,11 +2,8 @@ helmCharts:
 - name: minecraft
   includeCRDs: false
   valuesInline:
-    minecraftServer:
-      eula: true
-      difficulty: hard
-      rcon:
-        enabled: true
-  releaseName: moria
-  version: 3.1.3
-  repo: https://itzg.github.io/minecraft-server-charts
+    service:
+      name: base
+  releaseName: my-helloworld
+  version: 0.2.1
+  repo: https://crowdsecurity.github.io/helm-charts
