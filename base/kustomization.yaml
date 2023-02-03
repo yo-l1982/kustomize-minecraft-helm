@@ -1,9 +1,9 @@
 helmCharts:
-- name: minecraft
+- name: helloworld
   includeCRDs: false
   valuesInline:
     service:
       name: base
-  releaseName: my-helloworld
+  releaseName: helloworld
   version: 0.2.1
   repo: https://crowdsecurity.github.io/helm-charts
